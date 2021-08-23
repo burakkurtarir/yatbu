@@ -1,0 +1,76 @@
+.header-top-bar {
+  display: block;
+  background: #0c2e60;
+  padding:10px 0;
+}
+
+.header-top-bar ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header-top-bar a {
+  color: #fff;
+}
+
+.header-top-bar .header-language, .header-top-bar .header-social, .header-top-bar .login-area {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+  position: relative;
+}
+
+.header-top-bar .login-area a {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.header-top-bar .login-area a.langbtn {
+  margin-right: 5px;
+}
+
+.header-top-bar .contact-info {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top-bar p, .header-top-bar a {
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.header-top-bar p i, .header-top-bar a i {
+  position: relative;
+  top: 2px;
+}
+
+.header-top-bar ul.list-unstyled.dropdown-menu {
+  width: 50px;
+  max-width: 100px;
+  min-width: auto;
+  padding: 2px 9px;
+}
+
+.header-top-bar ul.list-unstyled.dropdown-menu li {
+  display: block;
+}
+
+.header-top-bar ul.list-unstyled.dropdown-menu li a {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .header-top-bar {
+    text-align: center;
+  }
+  .header-top-bar .header-language, .header-top-bar .header-social, .header-top-bar .login-area {
+    padding: 5px 0;
+  }
+}

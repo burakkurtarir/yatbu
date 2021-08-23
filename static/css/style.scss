@@ -1,0 +1,109 @@
+// GLOBAL STYLE CSS
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$primary-color: #30a8d5;
+$secondary-color: #0C2E60;
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+p,small,span,strong,em{font-family: 'Roboto', sans-serif !important; }
+.text-md-right{
+  @media screen and (min-width:992px) {
+    text-align: right;
+  }
+}
+.text-left{text-align: left!important;}
+
+h1,h2,h3,h4,h5,h6,p,small,span,input,textarea,button,a {font-family: 'Poppins', sans-serif !important;}
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.ml-03{margin-left: .3rem;}
+.d-flex{display: flex !important;} .align-center{align-items: center;}
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.img-product{display: block;
+    width: 100%;
+    height: auto;}
+
+    a{
+      text-decoration: none !important;
+    }
+
+label{
+  font-weight: 600;
+}
+    @media only screen and (min-width: 1200px) {
+      .container {
+        max-width: 100% !important;
+      }
+    }
+    @media only screen and (min-width: 1366px) {
+      .container {
+        max-width: 1365px !important;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      .container {
+        width: 100% !important;
+      }
+    }
+
+
+    .btn-filled {
+      border-radius: 0 !important;
+      background-color: #30a8d5 !important;
+      background: -webkit-gradient(linear, left top, right top, from(#30a8d5), to(#0fe5f0)) !important;
+      background: linear-gradient(to right, #30a8d5 0%, #0fe5f0 100%) !important;
+      -webkit-transition: all .5s !important;
+      color: white!important;
+      transition: all .5s !important;
+    }
+
+    .btn-filled:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#30a8d5), to(#30a8d5)) !important;
+      background: linear-gradient(to right, #30a8d5 0%, #30a8d5 100%) !important;
+      -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05) !important;
+              box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05) !important;
+      color: #fff !important;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+     }
+     ::-webkit-scrollbar-thumb {
+      background: radial-gradient(circle, #0fe5f0 33%,#30a8d5 95%);
+      border-radius: 10px;
+     }
+     ::-webkit-scrollbar-thumb:hover{
+      background: linear-gradient(108deg, #30a8d5 33%,#0fe5f0 95%);
+     }
+     ::-webkit-scrollbar-track{
+      background: #d4fdff;
+      border-radius: 10px;
+      box-shadow: inset 7px 30px 12px #ffffff;
+     }
+.bg-light-primary {
+  background-color: #F4F4F7!important;
+}
+$radius: 10px 3px;
+ .radius{
+   border-radius: $radius !important;
+ }
+.radius-right{
+  border-radius: 0  $radius 0 !important;
+}
+.button-error{
+  border: none;
+  padding: 4px 7px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: $radius;
+  justify-content: center;
+  background-color: #d53030 !important;
+  background: linear-gradient(to right, #d53030 0%, #d56c6c 100%) !important;
+}
+
+.form-control{
+  border-radius: $radius !important;
+}

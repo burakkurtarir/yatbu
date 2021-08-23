@@ -1,0 +1,395 @@
+/**
+    * Yachts section
+    */
+    @media screen and (max-width: 991px) {
+      .courses-page .main-form input {
+        widows: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+      }
+    }
+
+    .yachts {
+      position: relative;
+    }
+
+    .single-course {
+
+      position: relative;
+      -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+              box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+      margin-bottom: 40px;
+    }
+
+    .home .single-course {
+      margin-bottom: 0;
+      background: #fff;
+    }
+
+    @media screen and (max-width: 991px) {
+      .home .single-course {
+        margin-bottom: 30px;
+      }
+    }
+
+    .course-thumb {
+      position: relative;
+    }
+
+    .course-thumb .info-area {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+
+    .course-thumb .info-area ul li {
+      display: inline-block;
+    }
+
+    .course-thumb .info-area ul li a {
+      padding: 5px 10px;
+      text-transform: uppercase;
+      background: #000;
+      color: #fff;
+      font-size: 13px;
+    }
+
+    .course-thumb .info-area ul li a.rent {
+      background: #5a8dee;
+    }
+
+    .course-thumb .info-area ul li a.sell {
+      background: #2ac528;
+    }
+
+    .course-thumb .info-area ul li a.used {
+      position: relative;
+    }
+
+    .course-thumb .info-area ul li a.sold {
+      background: red;
+    }
+
+    .course-thumb:hover .meta-area {
+      display: block;
+    }
+
+    .course-thumb:hover .meta-area li {
+      top: 0;
+      opacity: 1;
+    }
+
+    .course-thumb .meta-area {
+      position: absolute;
+      top: 50%;
+      text-align: center;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+    }
+
+    .course-thumb .meta-area ul {
+      position: relative;
+      width: auto;
+      display: block;
+    }
+
+    .course-thumb .meta-area ul li {
+      display: inline-block;
+      top: 50px;
+      -webkit-transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      position: relative;
+      opacity: 0;
+    }
+
+    .course-thumb .meta-area ul li:nth-child(1) {
+      -webkit-transition-delay: .0s;
+              transition-delay: .0s;
+    }
+
+    .course-thumb .meta-area ul li:nth-child(2) {
+      -webkit-transition-delay: .1s;
+              transition-delay: .1s;
+    }
+
+    .course-thumb .meta-area ul li:nth-child(3) {
+      -webkit-transition-delay: .2s;
+              transition-delay: .2s;
+    }
+
+    .course-thumb .meta-area ul li a i {
+      width: 50px;
+      height: 50px;
+      background: -webkit-gradient(linear, left top, right top, from(#30a8d5), to(#0fe5f0));
+      background: linear-gradient(to right, #30a8d5 0%, #0fe5f0 100%);
+      border-radius: 50%;
+      display: block;
+      font-size: 20px;
+      color: #fff;
+      padding: 15px;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+    }
+
+    .course-thumb .meta-area ul li a:hover i {
+      background: -webkit-gradient(linear, left top, right top, from(#30a8d5), to(#30a8d5));
+      background: linear-gradient(to right, #30a8d5 0%, #30a8d5 100%);
+    }
+
+    .course-meta {
+      position: relative;
+    }
+
+    .course-meta .btn {
+      padding: 15px;
+    }
+
+    .ribbon {
+      background: -webkit-gradient(linear, left top, right top, from(#30a8d5), to(#0fe5f0));
+      background: linear-gradient(to right, #30a8d5 0%, #0fe5f0 100%);
+      -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.07);
+              box-shadow: 0 1px 0px rgba(0, 0, 0, 0.07);
+      border-radius: 0;
+      color: #fff;
+      display: block;
+      font-size: 16px;
+      position: absolute;
+      padding: 5px 15px;
+      bottom: 20px;
+      left: 0;
+    }
+
+    .ribbon:after {
+      content: '';
+      position: absolute;
+      top: auto;
+      left: 4px;
+      right: auto;
+      bottom: -7px;
+      background: #686868;
+      -webkit-transform: rotate(35deg);
+              transform: rotate(35deg);
+      height: 20px;
+      width: 20px;
+      z-index: -1;
+    }
+
+    .badge {
+      background-color: #ffc107;
+      color: #000;
+      font-size: 12px;
+      font-weight: 500;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .badge i {
+      margin-right: 10px;
+    }
+
+    .price {
+      font-size: 30px;
+      color: #0c2e60;
+      margin-bottom: 0;
+    }
+
+    .price strong {
+      color: #0c2e60;
+    }
+
+    .price span {
+      color: #525151;
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: line-through;
+      margin-left: 10px;
+    }
+
+    .discount-price {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .discount-price i {
+      margin-right: 5px;
+    }
+
+    /**
+        * Course details section
+        */
+    .yacht-details .infoBox {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+    }
+
+    .yacht-details .infoBox .course-meta {
+      -ms-flex-preferred-size: 70%;
+          flex-basis: 70%;
+    }
+
+    .buy-course {
+      text-align: center;
+    }
+
+    .buy-course .btn {
+      padding: 15px;
+      width: 100%;
+    }
+
+    .buy-course .btn-outline {
+      border-radius: 0;
+      margin-bottom: 10px;
+    }
+
+    .course-content {
+      border: 1px solid #e0e4e6;
+      border-radius: 3px;
+      padding: 15px 20px;
+      position: relative;
+    }
+    .product-item-part-title{
+      margin:0!important;
+      color: #83868c;
+      background-color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 27px;
+    }
+
+    .course-content div.product-item-part {
+      width: 50%;
+      font-style: 800;
+      text-transform: capitalize;
+    }
+
+    @media screen and (max-width: 575px) {
+      .course-content {
+        padding: 15px;
+      }
+    }
+
+    .course-content h3 {
+      font-size: 36px;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 13px;
+    }
+
+    .course-content h3 a {
+      font-size: 20px;
+      display: block;
+      color: #000;
+    }
+
+    .course-content h3 a:hover {
+      color: #30a8d5;
+    }
+
+    @media screen and (max-width: 575px) {
+      .course-content h3 {
+        font-size: 24px;
+      }
+    }
+
+    .course-content h3 .badge {
+      margin-left: 0;
+    }
+
+    .course-content p {
+      color: #0c2e60;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 575px) {
+      .course-content p {
+        font-size: 15px;
+      }
+    }
+
+    .course-content ul li {
+      display: inline-block;
+      width: 49%;
+    }
+
+    .course-content ul li i {
+      margin-right: 10px;
+    }
+
+    .course-content .details span {
+      display: inline-block;
+      position: relative;
+      margin-right: 10px;
+      padding-right: 10px;
+      line-height: 1;
+    }
+
+    @media screen and (max-width: 767px) {
+      .course-content .details span {
+        font-size: 13px;
+      }
+    }
+
+    .course-content .details span a {
+      color: #f98f05;
+    }
+
+    .course-content .details span:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      background-color: #525151;
+      height: 100%;
+      width: 1px;
+    }
+
+    .course-content .details .ratings {
+      display: inline-block;
+    }
+
+    .course-content .enroll {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+
+    .course-content .enroll div {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+    }
+
+    .course-content .enroll .total-students {
+      display: block;
+      margin: 0;
+    }
+    .course-content .enroll {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+  }

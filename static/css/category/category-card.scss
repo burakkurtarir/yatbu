@@ -1,0 +1,77 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+.box-ads-2 p {
+  color: black;
+  font-weight: 700;
+}
+
+.box-ads-2 {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+  height: 200px;
+}
+
+.box-ads-2-no-icon{
+  height: 100px !important;
+}
+.box-ads-2:hover{
+  cursor: pointer;
+  transition: .5s linear all;
+  background-color: #30a8d5;
+  border-bottom: 3px solid darken(#30a8d5,20);
+  & p {
+    color: white!important;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .box-ads-2 {
+      height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box-ads-2 {
+      text-align: center;
+      height: 180px;
+  }
+}
+
+.cyan-ads {
+  border-top: 3px solid var(--cyan);
+}
+.red-ads  {
+  border-top: 3px solid var(--red);
+}
+.blue-ads  {
+  border-top: 3px solid var(--blue);
+}
+.orange-ads  {
+  border-top: 3px solid var(--orange);
+}
+
+
+@media (min-width: 950px) {
+  .box-ads-2 {
+      width: 100%;
+
+  }
+  .header p {
+      width: 100%;
+  }
+
+}

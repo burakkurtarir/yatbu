@@ -1,0 +1,227 @@
+{
+  "Alert": {
+    "description": "Auto imported from components/global/alert/alert.vue"
+  },
+  "AvatarErAvatar": {
+    "description": "Auto imported from components/global/avatar/er-avatar.vue"
+  },
+  "IconMIcon": {
+    "description": "Auto imported from components/global/icon/m-icon.vue"
+  },
+  "ButtonsErPrimaryButton": {
+    "description": "Auto imported from components/global/buttons/er-primary-button.vue"
+  },
+  "InputGlobalFormInput": {
+    "description": "Auto imported from components/global/input/global-form-input.vue"
+  },
+  "InputGlobalInput": {
+    "description": "Auto imported from components/global/input/global-input.vue"
+  },
+  "LoadingCliLoading": {
+    "description": "Auto imported from components/global/loading/cli-loading.vue"
+  },
+  "LoadingServerLoading": {
+    "description": "Auto imported from components/global/loading/server-loading.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "AccountsMain": {
+    "description": "Auto imported from components/accounts/main.vue"
+  },
+  "ChatMain": {
+    "description": "Auto imported from components/chat/main.vue"
+  },
+  "CompareFixed": {
+    "description": "Auto imported from components/compare/compare-fixed.vue"
+  },
+  "ComparePage": {
+    "description": "Auto imported from components/compare/compare-page.vue"
+  },
+  "DetailMain": {
+    "description": "Auto imported from components/detail/main.vue"
+  },
+  "EditorCkEditor": {
+    "description": "Auto imported from components/editor/ck-editor.vue"
+  },
+  "HomeMain": {
+    "description": "Auto imported from components/home/main.vue"
+  },
+  "ListMain": {
+    "description": "Auto imported from components/list/main.vue"
+  },
+  "NewAdsStep1ChooseMainCategory": {
+    "description": "Auto imported from components/new-ads/step1-chooseMainCategory.vue"
+  },
+  "NewAdsStep2ChooseCategory": {
+    "description": "Auto imported from components/new-ads/step2-chooseCategory.vue"
+  },
+  "NewAdsStep3Forms": {
+    "description": "Auto imported from components/new-ads/step3-forms.vue"
+  },
+  "ProductCardBestProductCard": {
+    "description": "Auto imported from components/product-card/best-product.card.vue"
+  },
+  "ProductCardHorizontalProduct": {
+    "description": "Auto imported from components/product-card/horizontal-product.vue"
+  },
+  "ProductCard": {
+    "description": "Auto imported from components/product-card/product-card.vue"
+  },
+  "ProfileAds": {
+    "description": "Auto imported from components/profile/ads.vue"
+  },
+  "ProfileChangePassword": {
+    "description": "Auto imported from components/profile/change-password.vue"
+  },
+  "ProfileChangeProfileImage": {
+    "description": "Auto imported from components/profile/change-profile-image.vue"
+  },
+  "ProfileFavorites": {
+    "description": "Auto imported from components/profile/favorites.vue"
+  },
+  "ProfileInformation": {
+    "description": "Auto imported from components/profile/information.vue"
+  },
+  "ProfileSidebar": {
+    "description": "Auto imported from components/profile/sidebar.vue"
+  },
+  "SharedFaq": {
+    "description": "Auto imported from components/shared/faq.vue"
+  },
+  "SharedFooter": {
+    "description": "Auto imported from components/shared/footer.vue"
+  },
+  "SharedTitle": {
+    "description": "Auto imported from components/shared/title.vue"
+  },
+  "AccountsComponentsLogin": {
+    "description": "Auto imported from components/accounts/components/login.vue"
+  },
+  "AccountsComponentsRegister": {
+    "description": "Auto imported from components/accounts/components/register.vue"
+  },
+  "ChatComponentsBody": {
+    "description": "Auto imported from components/chat/components/body.vue"
+  },
+  "ChatComponentsFooter": {
+    "description": "Auto imported from components/chat/components/footer.vue"
+  },
+  "ChatComponentsHeader": {
+    "description": "Auto imported from components/chat/components/header.vue"
+  },
+  "DetailComponentsCharterContent": {
+    "description": "Auto imported from components/detail/components/charter-content.vue"
+  },
+  "DetailComponentsRightSideBar": {
+    "description": "Auto imported from components/detail/components/rightSideBar.vue"
+  },
+  "DetailComponentsSlider": {
+    "description": "Auto imported from components/detail/components/slider.vue"
+  },
+  "DetailComponentsTabs": {
+    "description": "Auto imported from components/detail/components/tabs.vue"
+  },
+  "DetailComponentsTitle": {
+    "description": "Auto imported from components/detail/components/title.vue"
+  },
+  "HomeMainSection": {
+    "description": "Auto imported from components/home/components/home-main-section.vue"
+  },
+  "HomeComponentsSection2": {
+    "description": "Auto imported from components/home/components/section-2.vue"
+  },
+  "HomeComponentsSection3Advantage": {
+    "description": "Auto imported from components/home/components/section-3-advantage.vue"
+  },
+  "HomeComponentsSection4Ads": {
+    "description": "Auto imported from components/home/components/section-4-ads.vue"
+  },
+  "HomeComponentsSection5Opportunity": {
+    "description": "Auto imported from components/home/components/section-5-opportunity.vue"
+  },
+  "HomeComponentsSection6ApplyFaq": {
+    "description": "Auto imported from components/home/components/section-6-apply-faq.vue"
+  },
+  "ListComponentsContent": {
+    "description": "Auto imported from components/list/components/content.vue"
+  },
+  "ListComponentsTitle": {
+    "description": "Auto imported from components/list/components/title.vue"
+  },
+  "SharedHeaderTop": {
+    "description": "Auto imported from components/shared/header/header-top.vue"
+  },
+  "SharedHeader": {
+    "description": "Auto imported from components/shared/header/header.vue"
+  },
+  "SharedHeaderMobileNav": {
+    "description": "Auto imported from components/shared/header/mobile-nav.vue"
+  },
+  "SharedHeaderNav": {
+    "description": "Auto imported from components/shared/header/nav.vue"
+  },
+  "SharedHeaderNavbarBrand": {
+    "description": "Auto imported from components/shared/header/navbar-brand.vue"
+  },
+  "SharedHeaderSearch": {
+    "description": "Auto imported from components/shared/header/search.vue"
+  },
+  "ChatComponentsMessagesCenter": {
+    "description": "Auto imported from components/chat/components/messages/center.vue"
+  },
+  "ChatComponentsMessagesLeft": {
+    "description": "Auto imported from components/chat/components/messages/left.vue"
+  },
+  "ChatComponentsMessagesRight": {
+    "description": "Auto imported from components/chat/components/messages/right.vue"
+  },
+  "DetailComponentsRightSideBarBooknow": {
+    "description": "Auto imported from components/detail/components/rightSideBar/booknow.vue"
+  },
+  "DetailComponentsRightSideBarCharterOwner": {
+    "description": "Auto imported from components/detail/components/rightSideBar/charter-owner.vue"
+  },
+  "DetailComponentsRightSideBarCharterWidget": {
+    "description": "Auto imported from components/detail/components/rightSideBar/charter-widget.vue"
+  },
+  "DetailComponentsRightSideBarFastlyLogin": {
+    "description": "Auto imported from components/detail/components/rightSideBar/fastly-login.vue"
+  },
+  "DetailComponentsRightSideBarSimilarYatch": {
+    "description": "Auto imported from components/detail/components/rightSideBar/similar-yatch.vue"
+  },
+  "DetailComponentsTabsAccommodation": {
+    "description": "Auto imported from components/detail/components/tabs/accommodation.vue"
+  },
+  "DetailComponentsTabsChat": {
+    "description": "Auto imported from components/detail/components/tabs/chat.vue"
+  },
+  "DetailComponentsTabsCrew": {
+    "description": "Auto imported from components/detail/components/tabs/crew.vue"
+  },
+  "DetailComponentsTabsOverview": {
+    "description": "Auto imported from components/detail/components/tabs/overview.vue"
+  },
+  "DetailComponentsTabsSpecification": {
+    "description": "Auto imported from components/detail/components/tabs/specification.vue"
+  },
+  "DetailComponentsTabsWater": {
+    "description": "Auto imported from components/detail/components/tabs/water.vue"
+  },
+  "HomeComponentsSection5Progress": {
+    "description": "Auto imported from components/home/components/section-5/progress.vue"
+  },
+  "HomeComponentsSection6Apply": {
+    "description": "Auto imported from components/home/components/section-6/apply.vue"
+  },
+  "HomeComponentsSection6Faq": {
+    "description": "Auto imported from components/home/components/section-6/faq.vue"
+  },
+  "ListComponentsContentFilter": {
+    "description": "Auto imported from components/list/components/content/filter.vue"
+  },
+  "ListComponentsContentProductList": {
+    "description": "Auto imported from components/list/components/content/product-list.vue"
+  }
+}

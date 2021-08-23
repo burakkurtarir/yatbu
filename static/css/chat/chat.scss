@@ -1,0 +1,198 @@
+$primary-color: #3183e6;
+$background : rgb(248, 253, 255);
+$header-text-color: white;
+$message-box-shadow-from-right:2px 1px 5px 2px rgba(0, 119, 188, 0.564);
+$message-box-shadow-from-left:2px 1px 5px 2px rgba(210, 238, 254, 0.674);
+$message-from-right-background:darken($primary-color,10);
+$message-from-left-background:lighten($primary-color,30);
+$message-from-text:white;
+$message-info-text:$primary-color;
+$textarea-background:lighten($primary-color,45);
+$textarea-placeholder:darken($primary-color,20);
+.chat-company {
+  width: 100%;
+  height: 100vh;
+  background-color: $background;
+  &-header {
+    border-radius: 0 0 2rem 2rem;
+    color: $header-text-color;
+    margin-bottom: 10px;
+    p{
+      color: $header-text-color;
+
+    }
+    background-color: $primary-color;
+    &-left{
+      display: flex;
+      align-items: center;
+
+    }
+    width: 100%!important;
+    display: flex;
+    align-items: center;
+    box-shadow: $message-box-shadow-from-right;
+    justify-content: space-between;
+    @media screen and (min-width:1365px) {
+      height: 10vh;
+    }
+    @media screen and (max-width:700px) {
+      height: 15vh;
+    }
+    @media screen and (max-width:1364px) {
+      height: 12vh;
+    }
+    padding: 0 30px;
+    &-owner{
+      margin-left: 17px;
+      h3{
+        @media screen and (max-width:700px) {
+          white-space: nowrap;
+          width: 100px;
+          overflow: hidden;
+          display: inline-block;
+          text-overflow: ellipsis;
+        }
+
+      }
+    }
+  }
+  &-body{
+    font-weight: 500!important;
+    background-color: $background;
+
+    & .message {
+      & .right{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        display: flex;
+        flex-direction: column;
+        p{
+          background:$message-from-right-background;
+        box-shadow: $message-box-shadow-from-right;
+        font-size: 13px;
+        padding: 20px 30px;
+        margin: .5rem .5rem .5rem .3rem;
+        color: $message-from-text;
+        border-radius: 10rem 10rem 0 10rem ;
+        max-width: 25vw;
+        @media screen and (min-width:1365px) {
+          max-width: 25vw;
+        }
+        @media screen and (max-width:700px) {
+          max-width: 75vw;
+          border-radius: 10px 10px 0 10px;
+        }
+        @media screen and (max-width:1364px) {
+          max-width: 60vw;
+        }
+        }
+        div{
+          color: $message-info-text;
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          font-weight: 700!important;
+          margin: 0 .5rem .5rem .3rem;
+          i {
+            color: $message-info-text  !important;
+          }
+
+        }
+      }
+      & .left{
+        width: 100%;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        p{
+        max-width: 50vw;
+        font-size: 13px;
+        background:$message-from-left-background;
+        padding: 20px 30px;
+        box-shadow: $message-box-shadow-from-left;
+        margin: .5rem .5rem .3rem .5rem ;
+        border-radius: 10rem 10rem 10rem 0;
+        @media screen and (min-width:1365px) {
+          max-width: 25vw;
+        }
+        @media screen and (max-width:700px) {
+          max-width: 75vw;
+          border-radius: 10px 10px 10px 0;
+        }
+        @media screen and (max-width:1364px) {
+          max-width: 60vw;
+        }
+        }
+        div{
+          color: $message-info-text;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          font-weight: 700!important;
+          margin: 0 0 .3rem .5rem ;
+          i {
+            color: $message-info-text !important;
+          }
+        }
+      }
+      & .center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p{
+          max-width: 50vw;
+          display: flex;
+          align-items: center;
+          @media screen and (min-width:1365px) {
+            max-width: 30vw;
+          }
+          @media screen and (max-width:700px) {
+            max-width: 100vw;
+
+          }
+        }
+      }
+    }
+    width: 100%;
+    @media screen and (min-width:1365px) {
+      height: 78vh;
+    }
+    @media screen and (max-width:1364px) {
+      height: 75vh;
+    }
+    @media screen and (max-width:700px) {
+      height: 70vh;
+    }
+    overflow-y: scroll;
+  }
+  &-footer{
+    @media screen and (min-width:1365px) {
+      height: 12vh;
+    }
+    @media screen and (max-width:700px) {
+      height: 12vh;
+    }
+    @media screen and (max-width:1364px) {
+      height: 12vh;
+    }
+    margin-top: 1rem;
+    position: relative;
+    textarea{
+      width: 100%;
+      background: $textarea-background;
+      border: none;
+      border-top: 1px solid $primary-color;
+      font-size: 16px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+      padding: 10px;
+      &::placeholder{
+        font-style: italic;
+        color:$textarea-placeholder;
+        font-weight: 400;
+      }
+    }
+  }
+}

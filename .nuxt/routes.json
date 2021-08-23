@@ -1,0 +1,149 @@
+[
+  {
+    "name": "compare___tr",
+    "path": "/compare",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/compare/index.vue",
+    "chunkName": "pages/compare/index",
+    "_name": "_b9713a0a"
+  },
+  {
+    "name": "detail___tr",
+    "path": "/detail",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/detail/index.vue",
+    "chunkName": "pages/detail/index",
+    "_name": "_a994bcde"
+  },
+  {
+    "name": "give-ads___tr",
+    "path": "/give-ads",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/give-ads/index.vue",
+    "chunkName": "pages/give-ads/index",
+    "_name": "_5263bc34"
+  },
+  {
+    "name": "list___tr",
+    "path": "/list",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/list/index.vue",
+    "chunkName": "pages/list/index",
+    "_name": "_103192de"
+  },
+  {
+    "name": "login___tr",
+    "path": "/login",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_005189bc"
+  },
+  {
+    "name": "my-profile___tr",
+    "path": "/my-profile",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/index.vue",
+    "chunkName": "pages/my-profile/index",
+    "_name": "_4f414488"
+  },
+  {
+    "name": "register___tr",
+    "path": "/register",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_620734c0"
+  },
+  {
+    "name": "give-ads-categories___tr",
+    "path": "/give-ads/categories",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/give-ads/categories.vue",
+    "chunkName": "pages/give-ads/categories",
+    "_name": "_47297f2a"
+  },
+  {
+    "name": "give-ads-forms___tr",
+    "path": "/give-ads/forms",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/give-ads/forms.vue",
+    "chunkName": "pages/give-ads/forms",
+    "_name": "_2121adde"
+  },
+  {
+    "name": "my-profile-change-password___tr",
+    "path": "/my-profile/change-password",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/change-password.vue",
+    "chunkName": "pages/my-profile/change-password",
+    "_name": "_76866964"
+  },
+  {
+    "name": "my-profile-change-profile-image___tr",
+    "path": "/my-profile/change-profile-image",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/change-profile-image.vue",
+    "chunkName": "pages/my-profile/change-profile-image",
+    "_name": "_16ed4894"
+  },
+  {
+    "name": "my-profile-favorites___tr",
+    "path": "/my-profile/favorites",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/favorites.vue",
+    "chunkName": "pages/my-profile/favorites",
+    "_name": "_52ecfc8d"
+  },
+  {
+    "name": "my-profile-publish___tr",
+    "path": "/my-profile/publish",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/publish.vue",
+    "chunkName": "pages/my-profile/publish",
+    "_name": "_4e4042c5"
+  },
+  {
+    "name": "my-profile-purchase___tr",
+    "path": "/my-profile/purchase",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/purchase.vue",
+    "chunkName": "pages/my-profile/purchase",
+    "_name": "_7d91903b"
+  },
+  {
+    "name": "my-profile-sales___tr",
+    "path": "/my-profile/sales",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/sales.vue",
+    "chunkName": "pages/my-profile/sales",
+    "_name": "_7a69b7c2"
+  },
+  {
+    "name": "my-profile-unpublish___tr",
+    "path": "/my-profile/unpublish",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/my-profile/unpublish.vue",
+    "chunkName": "pages/my-profile/unpublish",
+    "_name": "_9c85c9e8"
+  },
+  {
+    "name": "chat-chatId___tr",
+    "path": "/chat/:chatId?",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/chat/_chatId.vue",
+    "chunkName": "pages/chat/_chatId",
+    "_name": "_5b566c78"
+  },
+  {
+    "name": "detail-productid___tr",
+    "path": "/detail/:productid",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/detail/_productid.vue",
+    "chunkName": "pages/detail/_productid",
+    "_name": "_33a48b1c"
+  },
+  {
+    "name": "index___tr",
+    "path": "/",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_36a9e6a5"
+  },
+  {
+    "name": "location___tr",
+    "path": "/:location",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/_location/index.vue",
+    "chunkName": "pages/_location/index",
+    "_name": "_d79134ac"
+  },
+  {
+    "name": "location-category___tr",
+    "path": "/:location/:category",
+    "component": "/Users/gurhanarslan/Desktop/NUXT_STRUCTURE/structure/pages/_location/_category/index.vue",
+    "chunkName": "pages/_location/_category/index",
+    "_name": "_2e137878"
+  }
+]
